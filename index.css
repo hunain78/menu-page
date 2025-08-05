@@ -2,8 +2,7 @@
     body {
       background-color: #f5f0e6;
       color: #1a3c34;
-      font-family: serif;
-      /* "Poppins", 'Georgia', */
+      font-family: sans-serif;
       padding: 2rem;
       margin: 0;
       overflow-x: hidden;
@@ -57,7 +56,6 @@
       padding: 0.6rem 1.2rem;
       border-radius: 8px;
       text-decoration: none;
-      font-family: inherit;
       font-size: 1rem;
       transition: all 0.3s ease;
       position: relative;
