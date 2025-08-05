@@ -196,3 +196,36 @@
         transform: translateY(0);
       }
     }
+
+
+
+        /* AR View link styling */
+        .ar-view {
+            color: #1a3c34;
+            border: none;
+            padding: 0.3rem 0.6rem;
+            border-radius: 4px;
+            font-size: 1.3rem;
+            text-decoration: none;
+            margin-left: 0.5rem;
+            transition: background-color 0.3s ease;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .ar-view:hover {
+            background-color: #2e5a50;
+            color: #F5F0E6;
+        }
+
+        /* Ensure price and AR link align properly */
+        .price {
+            font-weight: bold;
+            color: #1a3c34;
+            font-size: 1.1rem;
+            min-width: 60px;
+            text-align: right;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
