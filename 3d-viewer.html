@@ -217,6 +217,63 @@
             text-transform: uppercase;
             letter-spacing: 1px;
         }
+        /* responsive */
+        
+
+        /* Responsive Design Fix */
+@media (max-width: 768px) {
+    body {
+        overflow: auto;
+    }
+
+    .container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .sidebar {
+        width: 100%;
+        height: auto;
+        border-right: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        padding: 15px;
+    }
+
+    .viewer {
+        width: 100%;
+        height: 60vh; /* Mobile ke liye height adjust */
+    }
+
+    #canvas {
+        height: 100% !important;
+    }
+
+    .info-panel {
+        position: static;
+        margin-top: 15px;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .control-section h3 {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    label {
+        font-size: 10px;
+    }
+
+    .viewer {
+        height: 50vh; /* Chhote phones ke liye */
+    }
+}
+
     </style>
 </head>
 <body>
